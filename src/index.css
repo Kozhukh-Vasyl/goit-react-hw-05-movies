@@ -13,3 +13,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.movieInfoLink {
+  border-bottom: 1px solid #2cd247;
+  padding: 15px;
+}
+
+.moviesLink {
+  text-decoration: none;
+}
+
+.moviesList {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #52804e;
+}
+
+.moviesList:hover {
+  color: #62ea3f;
+}
+
+.trendingMoviesError {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #3c7537;
+}
+
+.movieInfo {
+  border-bottom: 1px solid #2cd247;
+  padding: 15px 0px;
+}
+
+.backLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: solid 1px #a8a6a6;
+  padding: 0px 5px;
+  width: 100px;
+  border-radius: 2px;
+  /* gap: 3px; */
+  margin-bottom: 10px;
+}
+.movieInfoCard {
+  display: flex;
+  gap: 15px;
+}
